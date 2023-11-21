@@ -1,0 +1,19 @@
+.card{
+  height: 180px;
+  width: 180px;
+  background-color: #6296ea;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.card > p{
+  font-size: 2rem;
+  font-weight: bold;
+}
+.card img{
+  position: absolute;
+  inset: 0;
+  width: 180px;
+  height: 180px;
+}
